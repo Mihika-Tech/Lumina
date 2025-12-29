@@ -1,0 +1,28 @@
+# --- Global ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python Backend ---
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+backend/.pytest_cache/
+backend/requirements.txt.bk
+
+# --- Node/React Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Docker ---
+.docker/
+
+# --- Environment Secrets ---
+.env
